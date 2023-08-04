@@ -1,0 +1,17 @@
+name: Auto-approve PR
+run-name: Checking if PR should be auto-approved
+
+on: pull_request_target
+
+jobs:
+  auto-approve:
+    name: Perform auto-approve PR
+    runs-on: ubuntu-latest
+
+    permissions:
+      pull-requests: write
+
+    if: github.trigerring_actor == "dependabot[bot]" || github.triggering_actor == ${{ github.repository_owner }}
+    steps:
+      - name: Auto-approve PR
+        uses: hmarr/auto-approve-action@v3
