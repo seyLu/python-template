@@ -10,6 +10,8 @@ __version__ = "0.0.1"
 __maintainer__ = "seyLu"
 __status__ = "Prototype"
 
+from logging.config import fileConfig
+
 
 def main():
     pass
@@ -22,4 +24,5 @@ def function(*args, **kwargs) -> None:
 
 
 if __name__ == "__main__":
+    fileConfig("logging.ini")
     main()
