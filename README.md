@@ -1,5 +1,5 @@
 <div align="center">
-    <img height=100 src="https://github.com/seyLu/python-template/blob/main/static/icons/python.png" alt="Python Template Icon">
+    <img height=100 src="https://github.com/seyLu/python-template/blob/static/icons/python.png" alt="Python Template Icon">
     <h1>Python Template</h1>
     <p>Template Repository for quickly starting a Python project</p>
     <p>
@@ -33,6 +33,8 @@ python==3.11
     * Isort
     * Black
 - Config
+    * Dependabot for pip
+        - .github/dependabot.yaml
     * Tooling
         - pyproject.toml
     * Logging ([see Usage: logging with logging.ini](#usage-logging-ini))
