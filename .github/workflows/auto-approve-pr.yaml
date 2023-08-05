@@ -12,8 +12,11 @@ jobs:
       pull-requests: write
 
     steps:
+      - name: Check PR author and repo owner
+        run: echo "PR author is ${{ github.event.pull_request.user.login }}\nRepo owner is ${{ github.repository_owner }}"
+
       - name: Auto-approve PR
         uses: hmarr/auto-approve-action@v3
-        if: github.actor == "dependabot[bot]" || github.actor == ${{ github.repository_owner }}
+        if: github.actor == "dependabot[bot]" || github.event.pull_request.user.login == ${{ github.repository_owner }}
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
