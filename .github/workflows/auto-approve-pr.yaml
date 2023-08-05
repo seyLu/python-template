@@ -7,7 +7,7 @@ jobs:
   auto-approve:
     name: Perform auto-approve PR
     runs-on: ubuntu-latest
-    need: lint
+    needs: lint
 
     permissions:
       pull-requests: write
