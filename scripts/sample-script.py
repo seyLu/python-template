@@ -11,13 +11,14 @@ __maintainer__ = "seyLu"
 __status__ = "Prototype"
 
 from logging.config import fileConfig
+from typing import Any
 
 
-def main():
+def main() -> None:
     pass
 
 
-def function(*args, **kwargs) -> None:
+def function(*args: Any, **kwargs: dict[str, Any]) -> None:
     """Docstring for function."""
 
     pass
