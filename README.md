@@ -9,18 +9,11 @@
         ·
         <a href="https://github.com/seyLu/python-template/discussions">Ask Question</a>
     </p>
-    <img alt="Codeql badge" src="https://github.com/seyLu/python-template/actions/workflows/codeql.yaml/badge.svg">
-    <img alt="Lint badge" src="https://github.com/seyLu/python-template/actions/workflows/lint.yaml/badge.svg">
-    <a href="https://github.com/seyLu/python-template/blob/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/github/license/seyLu/python-template.svg"></a>
+    <img src="https://github.com/seyLu/python-template/actions/workflows/codeql.yaml/badge.svg" alt="Codeql badge">
+    <img src="https://github.com/seyLu/python-template/actions/workflows/lint.yaml/badge.svg" alt="Lint badge">
+    <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.11+-blue" alt="Python 3.11+ badge"></a>
+    <a href="https://github.com/seyLu/python-template/blob/main/LICENSE"><img src="https://img.shields.io/github/license/seyLu/python-template.svg" alt="MIT License"></a>
 </div>
-
-<br>
-
-### Supported Python version
-
-```bash
-python==3.11
-```
 
 <br>
 
