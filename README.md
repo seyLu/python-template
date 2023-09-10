@@ -11,6 +11,9 @@
     </p>
     <img alt="Codeql badge" src="https://github.com/seyLu/python-template/actions/workflows/codeql.yaml/badge.svg">
     <img alt="Lint badge" src="https://github.com/seyLu/python-template/actions/workflows/lint.yaml/badge.svg">
+    <a href="https://github.com/seyLu/python-template/blob/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/github/license/seyLu/python-template.svg"></a>
+</div>
+
 <br>
 
 ### Supported Python version
