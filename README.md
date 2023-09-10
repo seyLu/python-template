@@ -6,6 +6,7 @@
     <img src="https://github.com/seyLu/python-template/actions/workflows/lint.yaml/badge.svg" alt="Lint badge">
     <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.11+-blue" alt="Python 3.11+ badge"></a>
     <a href="https://github.com/seyLu/python-template/blob/main/LICENSE"><img src="https://img.shields.io/github/license/seyLu/python-template.svg" alt="MIT License"></a>
+    <br>
     <p>
         <a href="https://github.com/seyLu/python-template/issues/new">Report Bug</a>
         ·
@@ -19,24 +20,27 @@
 
 ### Built-in Python Tooling Features
 
-- Lint Workflow
-    * Ruff (superfast linter written in rust + configured to use isort)
-    * Black (opinionated formatter)
-    * Mypy (type checking)
-- Lint pre-commit ([see Setup: pre-commit](#setup-pre-commit))
-    * Ruff
-    * Black
-- Config
-    * Dependabot for pip
-        - .github/dependabot.yaml
-    * Auto-update pre-commit
-        - .github/workflows/auto-update-pre-commit.yaml
-    * Tooling
-        - pyproject.toml
-    * Logging ([see Usage: logging with logging.ini](#usage-logging-with-loggingini))
-        - logging.ini
-    * Global Editor Rules
-        - .editorconfig
+#### Lint Workflow
+
+- **Ruff** (superfast linter written in rust + configured to use isort)
+- **Black** (opinionated formatter)
+- **Mypy** (type checking + strict config)
+
+#### Lint pre-commit ([see Setup: pre-commit](#setup-pre-commit))
+
+#### Misc
+
+- **Dependabot for pip and github actions**
+    * .github/dependabot.yaml
+- **Auto-update pre-commit**
+    *  .github/workflows/auto-update-pre-commit.yaml
+- **Tooling**
+    * pyproject.toml
+
+- **Logging** ([see Usage: logging with logging.ini](#usage-logging-with-loggingini))
+    * logging.ini
+- **Global Editor Rules**
+    * .editorconfig
 
 ### Setup: pre-commit
 
