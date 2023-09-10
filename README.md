@@ -24,26 +24,23 @@ python==3.11
 ### Built-in Python Tooling Features
 
 - Lint Workflow
-    * Ruff (superfast linter written in rust)
-    * Isort (import sorter)
+    * Ruff (superfast linter written in rust + configured to use isort)
     * Black (opinionated formatter)
     * Mypy (type checking)
 - Lint pre-commit ([see Setup: pre-commit](#setup-pre-commit))
     * Ruff
-    * Isort
     * Black
 - Config
     * Dependabot for pip
         - .github/dependabot.yaml
+    * Auto-update pre-commit
+        - .github/workflows/auto-update-pre-commit.yaml
     * Tooling
         - pyproject.toml
-    * Logging ([see Usage: logging with logging.ini](#usage-logging-ini))
+    * Logging ([see Usage: logging with logging.ini](#usage-logging-with-loggingini))
         - logging.ini
     * Global Editor Rules
         - .editorconfig
-
-<br>
-<div id="#setup-pre-commit"></div>
 
 ### Setup: pre-commit
 
@@ -52,14 +49,14 @@ pip install pre-commit
 pre-commit install
 ```
 
-<br>
-<div id="#usage-logging-ini"></div>
-
 ### Usage: logging with logging.ini
 
 ```python
+import logging
 from logging.config import fileConfig
+from pathlib import Path
 
+Path("logs").mkdir(exist_ok=True)
 fileConfig("logging.ini")
 
 logging.info("Works as expected.")
