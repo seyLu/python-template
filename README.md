@@ -2,6 +2,12 @@
     <img height=100 src="https://github.com/seyLu/python-template/blob/main/static/icons/python.png" alt="Python Template Icon">
     <h1>Python Template</h1>
     <p>Template Repository for quickly starting a Python project</p>
+    <img src="https://github.com/seyLu/python-template/actions/workflows/codeql.yaml/badge.svg" alt="Codeql badge">
+    <img src="https://github.com/seyLu/python-template/actions/workflows/lint.yaml/badge.svg" alt="Lint badge">
+    <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.11+-blue" alt="Python 3.11+ badge"></a>
+    <a href="https://peps.python.org/pep-0008/"><img src="https://img.shields.io/badge/code%20style-pep8-orange.svg" alt="PEP8 badge"></a>
+    <a href="https://github.com/seyLu/python-template/blob/main/LICENSE"><img src="https://img.shields.io/github/license/seyLu/python-template.svg" alt="MIT License"></a>
+    <br>
     <p>
         <img src="https://github.com/seyLu/python-template/actions/workflows/codeql.yaml/badge.svg" alt="Codeql badge">
         <img src="https://github.com/seyLu/python-template/actions/workflows/lint.yaml/badge.svg" alt="Lint badge">
