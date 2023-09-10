@@ -10,7 +10,7 @@
         <a href="https://github.com/seyLu/python-template/discussions">Ask Question</a>
     </p>
     <img alt="Codeql badge" src="https://github.com/seyLu/python-template/actions/workflows/codeql.yaml/badge.svg">
-    <img alt="Lint badge" src="https://github.com/seyLu/python-template/actions/workflows/codeql.yaml/badge.svg">
+    <img alt="Lint badge" src="https://github.com/seyLu/python-template/actions/workflows/lint.yaml/badge.svg">
 <br>
 
 ### Supported Python version
