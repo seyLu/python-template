@@ -9,6 +9,8 @@
         ·
         <a href="https://github.com/seyLu/python-template/discussions">Ask Question</a>
     </p>
+    ![CodeQL Badge](https://github.com/seyLu/python-template/actions/workflows/codeql.yaml/badge.svg)
+    ![Lint Badge](https://github.com/seyLu/python-template/actions/workflows/lint.yaml/badge.svg)
 </div>
 
 <br>
