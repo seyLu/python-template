@@ -10,20 +10,16 @@ __version__ = "0.0.1"
 __maintainer__ = "seyLu"
 __status__ = "Prototype"
 
+import logging
 from logging.config import fileConfig
-from typing import Any
+from pathlib import Path
 
-
-def main() -> None:
-    pass
-
-
-def function(*args: Any, **kwargs: dict[str, Any]) -> None:
-    """Docstring for function."""
-
-    pass
+Path("logs").mkdir(exist_ok=True)
+fileConfig("logging.ini")
 
 
 if __name__ == "__main__":
-    fileConfig("logging.ini")
-    main()
+    """
+    Insert script here.
+    """
+    logging.info("Script working fine.")
