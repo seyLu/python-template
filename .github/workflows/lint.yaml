@@ -5,10 +5,14 @@ on:
   push:
     branches:
       - main
+    paths:
+      - '**.py'
   pull_request:
     branches:
       - main
+    paths:
+      - '**.py'
 
 jobs:
-  lint:
-    uses: seyLu/reusable-workflows/.github/workflows/py-lint.yaml@d05d0ee217b79e6cc95d57291203e9c8765a7705
+  py-lint:
+    uses: seyLu/reusable-workflows/.github/workflows/py-lint.yaml@3021aa9fba55bdbdc207fd84cfc60e9a7b4a33eb # main
