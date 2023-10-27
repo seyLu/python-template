@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 
-"""Docstring for script."""
+"""
+Docstring for script.
+"""
 
 __author__ = "seyLu"
 __github__ = "github.com/seyLu"
