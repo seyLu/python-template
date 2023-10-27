@@ -1,5 +1,5 @@
 <div align="center">
-    <img height=100 src="https://github.com/seyLu/python-template/blob/main/static/icons/python.png" alt="Python Template Icon">
+    <img height=100 src="https://github.com/seyLu/python-template/blob/main/python.png" alt="Python Template Icon">
     <h1>Python Template</h1>
     <p>Template Repository for quickly starting a Python project</p>
     <p>
@@ -24,25 +24,26 @@
 
 #### Lint Workflow
 
-- **Ruff** (superfast linter written in rust + configured to use isort)
-- **Black** (opinionated formatter)
-- **Mypy** (type checking + strict config)
+-   **Ruff** (superfast linter written in rust + configured to use isort)
+-   **Black** (opinionated formatter)
+-   **Mypy** (type checking + strict config)
 
 #### Lint pre-commit ([see Setup: pre-commit](#setup-pre-commit))
 
 #### Misc
 
-- **Dependabot for pip and github actions**
-    * .github/dependabot.yaml
-- **Auto-update pre-commit**
-    *  .github/workflows/auto-update-pre-commit.yaml
-- **Tooling**
-    * pyproject.toml
+-   **Dependabot for pip and github actions**
+    -   .github/dependabot.yaml
+-   **Auto-update pre-commit**
+    -   .github/workflows/auto-update-pre-commit.yaml
+-   **Tooling**
 
-- **Logging** ([see Usage: logging with logging.ini](#usage-logging-with-loggingini))
-    * logging.ini
-- **Global Editor Rules**
-    * .editorconfig
+    -   pyproject.toml
+
+-   **Logging** ([see Usage: logging with logging.ini](#usage-logging-with-loggingini))
+    -   logging.ini
+-   **Global Editor Rules**
+    -   .editorconfig
 
 ### Setup: pre-commit
 
