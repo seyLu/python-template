@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        python-version: ["3.11"]
+        python-version: ["3.11", "3.12"]
 
     steps:
       - name: Harden Runner
@@ -40,14 +40,13 @@ jobs:
         run: >
           pip install
           ruff
-          black
           mypy
 
       - name: Ruff Linter
         run: ruff check . --diff
 
-      - name: Black Formatter
-        run: black . --diff --check
+      - name: Ruff Formatter
+        run: ruff format .
 
       - name: Mypy Type Checker
         run: >

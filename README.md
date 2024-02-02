@@ -24,8 +24,8 @@
 
 #### Lint Workflow
 
--   **Ruff** (superfast linter written in rust + configured to use isort)
--   **Black** (opinionated formatter)
+-   **Ruff** (extremely fast linter written in rust + configured to use isort and flake8-bandit)
+-   **Ruff Formatter** (extremely fast opinionated formatter)
 -   **Mypy** (type checking + strict config)
 
 #### Lint pre-commit ([see Setup: pre-commit](#setup-pre-commit))
