@@ -22,7 +22,7 @@ Documentation = "https://github.com/seyLu/python-template#readme"
 "Bug Tracker" = "https://github.com/seyLu/python-template/issues"
 
 
-[tool.ruff]
+[tool.ruff.lint]
 select = [
   "A",   # flake8-builtins
   "B",   # flake8-bugbear
