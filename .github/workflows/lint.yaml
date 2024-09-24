@@ -20,15 +20,15 @@ jobs:
 
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@547a5cc003898d3f8fb1265b4a1f09b15be2f990 # v2.5.0
+        uses: step-security/harden-runner@951b48540b429070694bc8abd82fd6901eb123ca # v2.5.0
         with:
           egress-policy: audit
 
       - name: Checkout repository
-        uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v3.5.3
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v3.5.3
 
       - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d # v4.7.0
+        uses: actions/setup-python@f677139bbe7f9c59b41e40162b753c062f5d49a3 # v4.7.0
         with:
           python-version: ${{ matrix.python-version }}
           cache: "pip"

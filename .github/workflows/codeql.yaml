@@ -41,12 +41,12 @@ jobs:
 
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@547a5cc003898d3f8fb1265b4a1f09b15be2f990 # v2.5.0
+        uses: step-security/harden-runner@951b48540b429070694bc8abd82fd6901eb123ca # v2.5.0
         with:
           egress-policy: audit
 
       - name: Checkout repository
-        uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v3.5.3
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v3.5.3
 
       # Initializes the CodeQL tools for scanning.
       - name: Initialize CodeQL
